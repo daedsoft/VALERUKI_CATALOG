@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+body{
+    background-color: #FFFAFA;
+}
+
+.container{    
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 420px;
+    background-color: #FFFAFA;
+}
+
+.header{
+    background-color: #FFFAFA;    
+    box-shadow: 3px 3px 5px 10px #FFFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo{
+    width: 116px;
+    height: auto;
+}
+
+.searcher{    
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 0px);
+    margin: 0 auto;
+    padding: 6px 10px;
+    margin-top: 15px;        
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.btn{
+    border: 0;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.input-txt{
+    padding: 5px;
+    font-size: 18px;
+    width: 100%;
+    margin: 0 5px;
+    border: none;
+}
+
+.main{
+    padding: 15px;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.card__img{
+    width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.card__title{
+    margin-top: 10px;
+}
+
+.card__main-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__main-info__cat{
+    color: #8a8a8a;
+}
+
+.card__main-info__price{
+    color: #5E2727;
+    font-weight: 700;
+}
+
+.separator{
+    background-color: #e4e4e4;
+    width: 100%;
+    height: 1px;
+    margin: 15px 0;
+}
+
+.card__shower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    margin-top: 5px;
+}
+
+.card__shower__text{
+    color: #5e5e5e;
+    font-weight: 600;
+}
+
+.hidden{
+    display: none;
+}
