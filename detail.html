@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+
+    <script src="./data.js"></script>
+    
+    <title>Catálogo VALERUKI</title>
 </head>
 <body>
-    <h1>Detail</h1>
+    <div class="container">
+        <div id="productContainer"></div>
+    </div>
 </body>
 </html>
+
+<script>
+    const url = new URL(window.location.href)
+    const params = url.searchParams
+    params.get('id')
+    let product = catalog.filter(item => item.id == params.get('id'))
+    const productContainer = document.querySelector('#productContainer')
+    productContainer.innerHTML = `
+        <img class='card__img' src='./images/${product[0].image}' alt=''>
+        <h3>${product[0].title}</h3>
+        <h4>${product[0].price}</h4>
+        <p>${product[0].description}</p>
+    `    
+</script>

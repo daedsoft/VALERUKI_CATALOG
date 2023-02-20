@@ -229,3 +229,7 @@ body{
     text-decoration: none;
 }
 
+
+#productContainer{
+    padding: 15px;    
+}
