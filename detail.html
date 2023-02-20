@@ -30,9 +30,10 @@
     let product = catalog.filter(item => item.id == params.get('id'))
     const productContainer = document.querySelector('#productContainer')
     productContainer.innerHTML = `
-        <img class='card__img' src='./images/${product[0].image}' alt=''>
+        <img class='card__img' src='./images/${product[0].image[0]}' alt=''>
         <h3>${product[0].title}</h3>
         <h4>${product[0].price}</h4>
+        <br>
         <p>${product[0].description}</p>
     `    
 </script>
