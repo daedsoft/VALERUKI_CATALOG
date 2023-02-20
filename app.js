@@ -36,7 +36,7 @@ const loadCatalog = (data) => {
         cloneTemplate.querySelector('.card__main-info__cat').textContent = data[i].category
         cloneTemplate.querySelector('.card__main-info__price').textContent = data[i].price
         cloneTemplate.querySelector('.card__description').innerHTML = intro + data[i].description + '<br><br>' + cuidados
-        cloneTemplate.querySelector('.wa').setAttribute('href', 'https://wa.me/573113396584?text=Estoy interesada en este accesorio: ' + 'https://daedsoft.github.io/VALERUKI_CATALOG/detail.html?id=' + data[i].id)
+        cloneTemplate.querySelector('.wa').setAttribute('href', 'https://wa.me/573113396584?text=Estoy interesada en este accesorio: ' + 'https://daedsoft.github.io/VALERUKI_CATALOG/item.html?id=' + data[i].id)
         fragment.appendChild(cloneTemplate)
     }
     
