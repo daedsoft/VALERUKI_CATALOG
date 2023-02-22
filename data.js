@@ -91,6 +91,55 @@ catalog = [
     "price" : "$35.000", 
     "image": ["012-01.jpg", "012-02.jpg"],
     "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b> Mostacilla japonesa. Hilo chino."}, 
+
+    {"id": "013", 
+    "title": "SET DE PULSERAS", 
+    "category": "Set de Pulseras", 
+    "price" : "$38.000", 
+    "image": ["013-01.jpg", "013-02.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b> Mostacilla japonesa. Hilo encerado."}, 
+
+    {"id": "014", 
+    "title": "SET DE PULSERAS", 
+    "category": "Set de Pulseras", 
+    "price" : "$38.000", 
+    "image": ["014-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b> Mostacilla japonesa. Hilo encerado"}, 
+
+    {"id": "015", 
+    "title": "COLLAR CON DIJE", 
+    "category": "Religioso", 
+    "price" : "$40.000", 
+    "image": ["015-01.jpg"],
+    "description": "Se elaboran las advocaciones de la Virgen. Para este caso: Virgen de Fátima. <br><br> <b>Materiales: </b> Mostacilla japonesa. Cadena de acero dorado."}, 
+
+    {"id": "016", 
+    "title": "ARETES TOPO GEOMÉTRICOS HEXAGONALES", 
+    "category": "Aretes", 
+    "price" : "$40.000", 
+    "image": ["016-01.jpg"],
+    "description": "<b>Materiales: </b> Mostacilla japonesa. Topos de acero dorado."}, 
+
+    {"id": "017", 
+    "title": "ARETES HEXAGONALES", 
+    "category": "Aretes", 
+    "price" : "$80.000", 
+    "image": ["017-01.jpg", "017-02.jpg"],
+    "description": "<b>Materiales: </b> Mostacilla japonesa. Hilo encerado. Topos de acero dorado"}, 
+
+    {"id": "018", 
+    "title": "JOYAS CON PIEZAS DE GOLD FILLED CHAPADO DE ORO", 
+    "category": "Set de Pulseras", 
+    "price" : "$68.000", 
+    "image": ["018-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b> Mostacilla japonesa. Hilos con brillo. Hilo encerado. Centro de pulsera de gold filled con chapado de oro"}, 
+
+    {"id": "019", 
+    "title": "COLLAR CON DIJE OJO TURCO", 
+    "category": "Collar", 
+    "price" : "$40.000", 
+    "image": ["019-01.jpg"],
+    "description": "<b>Materiales: </b> Mostacilla japonesa. Cadena de acero dorado."}, 
 ]
 
 
