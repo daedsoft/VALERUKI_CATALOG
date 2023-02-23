@@ -140,6 +140,41 @@ catalog = [
     "price" : "$40.000", 
     "image": ["019-01.jpg"],
     "description": "<b>Materiales: </b> Mostacilla japonesa. Cadena de acero dorado."}, 
+
+    {"id": "020", 
+    "title": "CADENA CON DIJE MASCOTAS", 
+    "category": "Dije", 
+    "price" : "$40.000", 
+    "image": ["020-01.jpg"],
+    "description": "Elaboramos los rostros de mascotas que solicites.<br><br> <b>Materiales: </b> Mostacilla japonesa. Cadena de acero dorado."}, 
+
+    {"id": "021", 
+    "title": "SET COLLAR Y ARETES CON MASCOTAS", 
+    "category": "Set de Collar y Aretes", 
+    "price" : "$50.000 c/u", 
+    "image": ["021-01.jpg", "021-02.jpg", "021-03.jpg", "021-04.jpg", "021-05.jpg", "021-06.jpg", "021-07.jpg"],
+    "description": "Elaboramos los rostros de mascotas que solicites. <br><br> <b>Materiales: </b> Mostacilla japonesa. Topos de acero dorado. Cadena de acero dorado. <br><br> <b>Precio individual: </b> <br>Aretes: $15.000 <br>Collar con dije: $35.000"},
+
+    {"id": "022", 
+    "title": "JOYAS CON PIEZAS DE ORO 18 QUILATES", 
+    "category": "Set de Pulseras", 
+    "price" : "$115.000", 
+    "image": ["022-01.jpg", "022-02.jpg", "022-03.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b> <br>Mostacilla japonesa. <br>Hilos con brillo. <br>Hilo encerado. <br>5 balines de oro 18 quilates N°3mm."},
+
+    {"id": "023", 
+    "title": "PULSERA CON CENTRO DIJE MIYUKI", 
+    "category": "Pulsera Mujer", 
+    "price" : "$20.000 c/u", 
+    "image": ["023-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b> <br>Mostacilla japonesa.<br>Hilo chino."}, 
+
+    {"id": "024", 
+    "title": "JOYAS PARA COMPARTIR", 
+    "category": "Set de Pulseras", 
+    "price" : "$70.000", 
+    "image": ["024-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b><br>Hilos con brillo.<br>Hilo encerado. <br>2 balines de oro 18 quilates N°3mm."}, 
 ]
 
 
