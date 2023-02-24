@@ -162,9 +162,10 @@ body{
     transform: translate(-50%, -50%);
     background-color: #fff;
     border-radius: 4px;
-    padding: 15px;
+    padding: 5px 5px 15px 15px;
     margin-bottom: 20px;
     width: calc(100% - 60px);    
+    max-width: 360px;
     margin: 5px auto;
     box-shadow:
     0 1px 1px hsl(0deg 0% 0% / 0.075),

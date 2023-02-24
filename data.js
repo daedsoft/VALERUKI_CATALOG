@@ -175,6 +175,133 @@ catalog = [
     "price" : "$70.000", 
     "image": ["024-01.jpg"],
     "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b><br>Hilos con brillo.<br>Hilo encerado. <br>2 balines de oro 18 quilates N°3mm."}, 
+
+    {"id": "025", 
+    "title": "JOYAS CON PIEZAS DE GOLD FILLED CHAPADO DE ORO", 
+    "category": "Set de Pulseras", 
+    "price" : "$61.000", 
+    "image": ["025-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilos con brillo.<br>Centro de pulsera con cristal y Goldfilled chapado de oro."}, 
+
+    {"id": "026", 
+    "title": "JOYAS CON PIEZAS DE GOLD FILLED CHAPADO DE ORO", 
+    "category": "Set de Pulseras", 
+    "price" : "$99.000", 
+    "image": ["026-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilos con brillo.<br>Hilo encerado.<br>Balines de gold filled con chapado de oro.<br>Piedra natural Lapizazuli: Sus propiedades van desde desprender el estrés y aportar calma, hasta la armonización mental, emocional y física."}, 
+    
+    {"id": "027", 
+    "title": "JOYAS CON PIEZAS DE GOLD FILLED CHAPADO DE ORO", 
+    "category": "Set de Pulseras", 
+    "price" : "$58.000", 
+    "image": ["027-01.jpg"],
+    "description": "<b>Materiales: </b><br>Mostacilla japonesa.<br>Hilos con brillo.<br>Hilo encerado.<br>Balines de gold filled con chapado de oro."}, 
+
+    {"id": "028", 
+    "title": "PULSERA", 
+    "category": "Pulsera Mujer", 
+    "price" : "$30.000", 
+    "image": ["028-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><b>Materiales:</b><br>Mostacilla japonesa.<br>Hilo encerado.<br>Aplique de cristal Goldfilled con chapado de oro."}, 
+
+    {"id": "029", 
+    "title": "JOYAS CON PIEZAS DE GOLD FILLED CHAPADO DE ORO", 
+    "category": "Set de Pulseras", 
+    "price" : "$66.000", 
+    "image": ["029-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><b>Materiales:</b><br>Mostacilla japonesa.<br>Hilos con brillo.<br>Hilo encerado.<br>Balines de gold filled con chapado de oro.<br>Piedras Ágatas."}, 
+
+    {"id": "030", 
+    "title": "SET DE PULSERAS", 
+    "category": "Set de Pulseras", 
+    "price" : "$66.000", 
+    "image": ["030-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><b>Materiales:</b><br>Mostacilla japonesa.<br>Hilo encerado.<br>Centro de pulsera de acero."}, 
+
+    {"id": "031", 
+    "title": "ANILLO: CAÑANDONGA FLORECIDA", 
+    "category": "Anillo", 
+    "price" : "$40.000", 
+    "image": ["031-01.jpg"],
+    "description": "Inspirado en la Cañandonga Florecida y el paisaje de nuestro Departamento Sucre.<br><br>Se realiza a la medida del cliente. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilo encerado."}, 
+
+    {"id": "032", 
+    "title": "ANILLO", 
+    "category": "Anillo", 
+    "price" : "$15.000", 
+    "image": ["032-01.jpg"],
+    "description": "Se realiza a la medida del cliente. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilo encerado."}, 
+
+    {"id": "033", 
+    "title": "ANILLO", 
+    "category": "Anillo", 
+    "price" : "$40.000", 
+    "image": ["033-01.jpg"],
+    "description": "Se realiza a la medida del cliente. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilo encerado."}, 
+
+    {"id": "034", 
+    "title": "ANILLO", 
+    "category": "Anillo", 
+    "price" : "$25.000", 
+    "image": ["034-01.jpg"],
+    "description": "Se realiza a la medida del cliente. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilo encerado."}, 
+
+    {"id": "035", 
+    "title": "SET DE ANILLOS", 
+    "category": "Anillo", 
+    "price" : "$40.000", 
+    "image": ["035-01.jpg"],
+    "description": "Se realiza a la medida del cliente. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilo encerado."}, 
+
+    {"id": "036", 
+    "title": "ANILLO", 
+    "category": "Anillo", 
+    "price" : "$30.000", 
+    "image": ["036-01.jpg"],
+    "description": "Se realiza a la medida del cliente. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilo encerado."}, 
+
+    {"id": "037", 
+    "title": "PULSERA", 
+    "category": "Pulsera Mujer", 
+    "price" : "$25.000", 
+    "image": ["037-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilo encerado."}, 
+
+    {"id": "038", 
+    "title": "PULSERA", 
+    "category": "Pulsera Mujer", 
+    "price" : "$70.000", 
+    "image": ["038-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilo encerado."}, 
+
+    {"id": "039", 
+    "title": "PULSERA", 
+    "category": "Pulsera Mujer", 
+    "price" : "$30.000", 
+    "image": ["039-01.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilo encerado."}, 
+
+    {"id": "040", 
+    "title": "SET DE PULSERAS", 
+    "category": "Set de Pulseras", 
+    "price" : "$38.000", 
+    "image": ["040-01.jpg", "040-02.jpg", "040-03.jpg"],
+    "description": "Sistema de cierre con nudo corredizo para graduar a tu muñeca. <br><br> <b>Materiales: </b><br>Mostacilla japonesa.<br>Hilo encerado."}, 
+
+    {"id": "041", 
+    "title": "SET COLLAR Y ARETES", 
+    "category": "Set de Collar y Aretes", 
+    "price" : "$35.000", 
+    "image": ["041-01.jpg", "041-02.jpg", "041-03.jpg"],
+    "description": "<b>Materiales: </b><br>Mostacilla japonesa.<br>Topos de acero dorado.<br>Cadena de acero dorado."}, 
+
+    {"id": "042", 
+    "title": "ARETES SIMBÓLICOS: CAYENA", 
+    "category": "Aretes Simbólicos", 
+    "price" : "$140.000", 
+    "image": ["042-01.jpg", "042-02.jpg", "042-03.jpg"],
+    "description": "Inspirados en la flor de bonche y su color intenso rojo que adorna los patios y terrazas de las casas de nuestra región sabanera.<br><br><b>Materiales:</b><br>Mostacilla japonesa.<br>Hilo encerado.<br>Topos de acero dorado."},     
+
 ]
 
 
@@ -188,3 +315,4 @@ catalog = [
     "description": ""}, 
 
 */
+
