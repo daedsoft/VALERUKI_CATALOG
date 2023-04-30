@@ -93,5 +93,10 @@ for (let i = 0; i < filterItems.length; i++){
     filterItems[i].addEventListener('click', () => {
         filterInCatalog(filterItems[i].getAttribute("data-id"))
         filter.classList.add('hidden-outside')
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        })
     })
 }
