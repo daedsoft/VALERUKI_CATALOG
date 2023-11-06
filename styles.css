@@ -167,8 +167,7 @@ body{
     top: 0;
     right: 0;
     height: 100vh;    
-    background-color: #fff;
-    border-radius: 4px;
+    background-color: #fff;    
     padding: 5px 5px 15px 15px;    
     width: calc(100% - 60px);    
     max-width: 360px;    
@@ -176,8 +175,7 @@ body{
     0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075),
     0 4px 4px hsl(0deg 0% 0% / 0.075),
-    0 8px 8px hsl(0deg 0% 0% / 0.075),
-    0 16px 16px hsl(0deg 0% 0% / 0.45);
+    0 8px 8px hsl(0deg 0% 0% / 0.075);
     transition: all .2s;    
 }
 
@@ -225,8 +223,9 @@ body{
     gap: 5px;
     align-items: center;
     justify-content: center;
-    background-color: #5AC963;
-    color: #fff;
+    border: 1px solid #5AC963;
+    background-color: #fff;
+    color: #5AC963;
     width: 100%;
     margin-top: 15px;
     border-radius: 4px;
@@ -241,7 +240,26 @@ body{
 }
 
 .back{
-    display: inline-block;
-    width: 100%;
-    padding: 10px 15px 0 15px;
+    display: block;    
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px 6px 6px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #e5e5e5;
+    color: #161616;
+    margin: 15px 0 0 15px;
+}
+
+#imagesContainer{    
+    display: flex;    
+    gap: 5px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.rotate{
+    transform: rotate(90deg);
 }

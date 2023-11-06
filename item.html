@@ -18,8 +18,10 @@
 </head>
 <body>
     <div class="container">
-        <a  class='back' href='https://daedsoft.github.io/VALERUKI_CATALOG/'>Volver al Catálogo</a>
-        <div id="productContainer"></div>
+        <a  class='back' href='https://daedsoft.github.io/VALERUKI_CATALOG/'><img class="rotate" src="./assets/icon_angle.png"> Volver al Catálogo</a>
+        <div id="productContainer">
+            <div id="imagesContainer"></div>
+        </div>
     </div>
 </body>
 </html>
@@ -30,15 +32,21 @@
     params.get('id')
     let product = catalog.filter(item => item.id == params.get('id'))
     const productContainer = document.querySelector('#productContainer')
+    const imagesContainer = document.querySelector('#imagesContainer')
 
     if (product.length > 0){
-        productContainer.innerHTML = `
-        <img class='card__img__item' src='./images/${product[0].image[0]}' alt=''>
+        for (x = 0; x < product[0].image.length; x++){
+            imagesContainer.innerHTML += `<img class='card__img__item' src='./images/${product[0].image[x]}' alt=''>`            
+        }
+        productContainer.innerHTML += `        
         <h3>${product[0].title}</h3>
         <h4>${product[0].price}</h4>
-        <br>
-        <p>${product[0].description}</p>
         <a  href='https://wa.me/573001661362?text=Estoy interesada en este accesorio: https://daedsoft.github.io/VALERUKI_CATALOG/item.html?id=${product[0].id}' target='_blank' class='btn wa'><img src='./assets/icon_wa.png' alt=''>Me interesa</a>                        
+        <br>
+        <p>${intro}</p>
+        <p>${product[0].description}</p>
+        <br>
+        <p>${cuidados}</p>
     `    
     }else{
         productContainer.innerHTML = "<h2>Sin información.</h2><a href='https://daedsoft.github.io/VALERUKI_CATALOG/'>Volver al Catálogo</a>"

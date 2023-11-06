@@ -16,8 +16,8 @@ cuidados = `
 categories = [
     {"id": 1, "name": "Set de pulseras"},
     {"id": 2, "name": "Set de Collar y Aretes"},
-    {"id": 3, "name": "Pulsera Mujer"},
-    {"id": 4, "name": "Pulsera Hombre"},
+    {"id": 3, "name": "Pulsera Dama"},
+    {"id": 4, "name": "Pulsera Caballero"},
     {"id": 5, "name": "Aretes"},
     {"id": 6, "name": "Aretes Simbólicos"},
     {"id": 7, "name": "Tobillera"},
