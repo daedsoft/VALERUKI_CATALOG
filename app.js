@@ -8,10 +8,16 @@ const autoComplete = document.querySelector('.autocomplete')
 const filtersBtn = document.querySelector('#filtersBtn')
 const filter = document.querySelector('.filter')
 const closeFilterBtn = document.querySelector('#closeFilterBtn')
+const filterBody = document.querySelector('.filter__body')
+
+// load filter options ********************************************
+
+categories.map((i) => {    
+    filterBody.innerHTML += `<p class="filter__item" data-id=${i.id}>${i.name}</p>`        
+})
 const filterItems = document.querySelectorAll('.filter__item')
 
 // Functions ****************************************************
-
 
 const enableShower = () => {
     const cardShower = document.querySelectorAll('.card__shower')
@@ -31,11 +37,11 @@ const loadCatalog = (data) => {
         for (let j = 0; j < data[i].image.length; j++){
             cloneTemplate.querySelector('.card__img__container').innerHTML += `<img loading="lazy" class="card__img" src="./images/${data[i].image[j]}" alt="VALERUKI">`
         }
-       
+        
         cloneTemplate.querySelector('.card').setAttribute('href', `https://daedsoft.github.io/VALERUKI_CATALOG/item.html?id=${data[i].id}`)
         cloneTemplate.querySelector('.card__title').textContent =  data[i].title
-        cloneTemplate.querySelector('.card__main-info__cat').textContent = data[i].category
-        cloneTemplate.querySelector('.card__main-info__price').textContent = data[i].price                
+        cloneTemplate.querySelector('.card__main-info__cat').textContent = categories.filter(c => c.id == data[i].category)[0].name 
+        cloneTemplate.querySelector('.card__main-info__price').textContent = data[i].price        
         fragment.appendChild(cloneTemplate)
     }
     
@@ -55,13 +61,10 @@ const searchInCatalog = () => {
 }
 
 const filterInCatalog = (selected) => {
-    let getSearch = selected    
-
-    if (getSearch == 'Ver todos'){
+    if (selected == '0'){
         loadCatalog(catalog)
-    }else{
-        let expression = new RegExp(`${getSearch}.*`, 'i')
-        const catalogFiltered = catalog.filter(item => expression.test(item.category))     
+    }else{        
+        const catalogFiltered = catalog.filter(item => item.category == selected)     
         loadCatalog(catalogFiltered)
     }    
 }
@@ -87,7 +90,12 @@ closeFilterBtn.addEventListener('click', () => {
 
 for (let i = 0; i < filterItems.length; i++){
     filterItems[i].addEventListener('click', () => {
-        filterInCatalog(filterItems[i].textContent)
+        filterInCatalog(filterItems[i].getAttribute("data-id"))
         filter.classList.add('hidden-outside')
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        })
     })
 }
